@@ -30,7 +30,7 @@ if __name__ == '__main__':
         time.sleep(delta_seconds)
 
         stop = current_bytes()
-        bytes_per_second = (stop-start)/delta_seconds
+        bytes_per_second = (stop-start) / delta_seconds
         kb_per_second = round(bytes_per_second / 1024, 4)
         start = stop
 
